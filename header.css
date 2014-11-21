@@ -19,7 +19,6 @@
 /* Standard */
 .ui.header {
   border: none;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   margin: -webkit-calc(2rem -  0.165em ) 0em 1rem;
   margin: calc(2rem -  0.165em ) 0em 1rem;
   padding: 0em 0em;
@@ -29,7 +28,7 @@
   color: rgba(0, 0, 0, 0.8);
 }
 .ui.header .sub.header {
-  font-size: 1.1rem;
+  font-size: 1.0714rem;
   font-weight: normal;
   margin: 0em;
   padding: 0em;
@@ -78,27 +77,6 @@
 }
 
 /*--------------
-  Page Heading
----------------*/
-
-h1.ui.header {
-  min-height: 1rem;
-  font-size: 2rem;
-}
-h2.ui.header {
-  font-size: 1.714rem;
-}
-h3.ui.header {
-  font-size: 1.28rem;
-}
-h4.ui.header {
-  font-size: 1.071rem;
-}
-h5.ui.header {
-  font-size: 1rem;
-}
-
-/*--------------
  Content Heading
 ---------------*/
 
@@ -139,9 +117,16 @@ h5.ui.header {
 --------------------*/
 
 .ui.icon.header {
-  display: block;
+  display: inline-block;
   text-align: center;
   margin: 2rem 0em 1rem;
+}
+.ui.icon.header:after {
+  content: '';
+  display: block;
+  height: 0px;
+  clear: both;
+  visibility: hidden;
 }
 .ui.icon.header:first-child {
   margin-top: 0em;
@@ -197,7 +182,7 @@ h5.ui.header {
   color: #1b1c1d !important;
 }
 a.ui.black.header:hover {
-  color: #222425 !important;
+  color: #1b1c1d !important;
 }
 .ui.blue.header {
   color: #3b83c0 !important;
@@ -410,14 +395,14 @@ a.ui.inverted.yellow.header:hover {
 --------------------*/
 
 .ui.dividing.header {
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.25rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .ui.dividing.header .sub.header {
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.25rem;
 }
 .ui.dividing.header .icon {
-  margin-bottom: 0.2em;
+  margin-bottom: 0em;
 }
 .ui.inverted.dividing.header {
   border-bottom-color: rgba(255, 255, 255, 0.2);
@@ -485,26 +470,26 @@ a.ui.inverted.yellow.header:hover {
 
 /* Attached Sizes */
 .ui.tiny.attached.header {
-  font-size: 0.875em;
+  font-size: 0.8571em;
 }
 .ui.small.attached.header {
-  font-size: 0.9em;
+  font-size: 0.9285em;
 }
 .ui.attached.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
   font-size: 1em;
 }
 .ui.large.attached.header {
-  font-size: 1.1em;
+  font-size: 1.0714em;
 }
 .ui.huge.attached.header {
-  font-size: 1.2em;
+  font-size: 1.1428em;
 }
 
 /*-------------------
         Sizing
 --------------------*/
 
-.ui.header {
+.ui.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
   font-size: 1.285em;
 }
 
