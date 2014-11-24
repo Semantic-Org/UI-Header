@@ -1,6 +1,5 @@
-### Version 1.0.0 - XX XX, 2014
+### Version 1.0.0 - November 24, 2014
 
-- **Header** - Headers now do not automatically resize based on h1-h6
 - **Header / Icon** - Inverted headers and icons no longer invert background colors, but instead use a lighter version of colors more legible on dark backgrounds. Inverted circular icons, still however invert the color of the circle.
 - **Dropdown** - Many new content types now work inside dropdowns, headers, dividers, images, inputs, labels and more
 - **Header** - Linked headers now receive link colors
