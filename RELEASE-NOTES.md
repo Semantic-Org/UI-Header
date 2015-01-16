@@ -1,3 +1,7 @@
+### Version 1.5.0 - December 30, 2014
+
+- **List** - Fixed bug when using ``ui icon button`` or ``ui icon header`` causing element to receive icon formatting
+
 ### Version 1.0.0 - November 24, 2014
 
 - **Header / Icon** - Inverted headers and icons no longer invert background colors, but instead use a lighter version of colors more legible on dark backgrounds. Inverted circular icons, still however invert the color of the circle.
