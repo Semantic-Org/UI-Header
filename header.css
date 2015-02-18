@@ -1,5 +1,9 @@
  /*
+<<<<<<< HEAD
  * # Semantic UI - 1.9.0
+=======
+ * # Semantic UI - 1.7.2
+>>>>>>> 893e09f695d1a8edee33bf821c178074853c1c57
  * https://github.com/Semantic-Org/Semantic-UI
  * http://www.semantic-ui.com/
  *
@@ -40,6 +44,10 @@
 ---------------*/
 
 .ui.header .sub.header {
+<<<<<<< HEAD
+=======
+  font-size: 1.0714rem;
+>>>>>>> 893e09f695d1a8edee33bf821c178074853c1c57
   font-weight: normal;
   margin: 0em;
   padding: 0em;
@@ -47,17 +55,34 @@
   line-height: 1.2em;
   color: rgba(0, 0, 0, 0.5);
 }
+.ui.header:first-child {
+  margin-top: -0.165em;
+}
+.ui.header:last-child {
+  margin-bottom: 0em;
+}
 
 /*--------------
       Icon
 ---------------*/
 
+<<<<<<< HEAD
+/*--------------
+      Icon
+---------------*/
+
+=======
+>>>>>>> 893e09f695d1a8edee33bf821c178074853c1c57
 .ui.header > .icon {
   display: table-cell;
   opacity: 1;
   font-size: 1.5em;
   padding-top: 0.165em;
   vertical-align: middle;
+<<<<<<< HEAD
+=======
+  padding-right: 0.5rem;
+>>>>>>> 893e09f695d1a8edee33bf821c178074853c1c57
 }
 
 /* With Text Node */
@@ -79,6 +104,7 @@
   height: auto;
   vertical-align: middle;
 }
+<<<<<<< HEAD
 .ui.header > .image:only-child,
 .ui.header > img:only-child {
   margin-right: 0.75rem;
@@ -120,6 +146,8 @@
 .ui.header + p {
   margin-top: 0em;
 }
+=======
+>>>>>>> 893e09f695d1a8edee33bf821c178074853c1c57
 
 
 /*******************************
@@ -128,6 +156,7 @@
 
 
 /*--------------
+<<<<<<< HEAD
      Page
 ---------------*/
 
@@ -142,9 +171,19 @@ h3.ui.header {
 }
 h4.ui.header {
   font-size: 1.071rem;
+=======
+     Content
+---------------*/
+
+.ui.header .content {
+  display: inline-block;
+  vertical-align: top;
+>>>>>>> 893e09f695d1a8edee33bf821c178074853c1c57
 }
-h5.ui.header {
-  font-size: 1rem;
+.ui.header > .icon + .content {
+  padding-left: 0.5rem;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 /* Sub Header */
@@ -200,6 +239,40 @@ h5.ui.header .sub.header {
 }
 .ui.tiny.header .sub.header {
   font-size: 0.9285rem;
+}
+<<<<<<< HEAD
+=======
+
+/* Positioning */
+.ui.header + p {
+  margin-top: 0em;
+}
+
+
+/*******************************
+            Types
+*******************************/
+
+>>>>>>> 893e09f695d1a8edee33bf821c178074853c1c57
+
+/*--------------
+     Page
+---------------*/
+
+h1.ui.header {
+  font-size: 2rem;
+}
+h2.ui.header {
+  font-size: 1.714rem;
+}
+h3.ui.header {
+  font-size: 1.28rem;
+}
+h4.ui.header {
+  font-size: 1.071rem;
+}
+h5.ui.header {
+  font-size: 1rem;
 }
 
 /*-------------------
@@ -580,7 +653,11 @@ a.ui.inverted.yellow.header:hover {
 --------------------*/
 
 .ui.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+<<<<<<< HEAD
   font-size: 1.28em;
+=======
+  font-size: 1.285em;
+>>>>>>> 893e09f695d1a8edee33bf821c178074853c1c57
 }
 
 
