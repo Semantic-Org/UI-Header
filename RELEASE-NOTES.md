@@ -1,5 +1,12 @@
-<<<<<<< HEAD
-=======
+### UI Changes
+
+- **Headers** - Headers can now contain images alongside text, added examples to docs
+
+### Version 1.8.0 - January 23, 2015
+
+- **Header** - Content headers now inherit `@h1-h6` sizes from `site.variables`
+- **Header** - Sub headers now adjust in size depending on header size, added new variables for subheader resizing
+
 ### Version 1.5.0 - December 30, 2014
 
 - **List** - Fixed bug when using ``ui icon button`` or ``ui icon header`` causing element to receive icon formatting
@@ -41,4 +48,3 @@
 - Headers and lists with icons now do not break with multiline content
 
 ### Version 0.1.0 - Sep 25, 2013
->>>>>>> 893e09f695d1a8edee33bf821c178074853c1c57
