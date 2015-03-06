@@ -1,3 +1,7 @@
+### Version 1.11.2 - March 6, 2015
+
+- **Header** - Labels inside headers have been slightly increased in size
+
 ### UI Changes
 
 - **Headers** - Headers can now contain images alongside text, added examples to docs
