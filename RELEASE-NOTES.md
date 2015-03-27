@@ -1,3 +1,7 @@
+### Version 1.11.6 - March 27, 2015
+
+- **Menu/Dropdown** - Fix dropdown headers disappearing inside menus
+
 ### Version 1.11.2 - March 6, 2015
 
 - **Header** - Labels inside headers have been slightly increased in size
