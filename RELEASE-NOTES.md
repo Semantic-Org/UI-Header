@@ -1,3 +1,12 @@
+### Version 2.0.0 - June 30, 2015
+
+- **Headers** - Added new header type `sub header`, useful for displaying small headers alongside text content. See examples [in the header docs](http://www.semantic-ui.com/elements/header.html#sub-headers)
+- **Dropdown** - Fixes issue with headers disappearing inside of `ui dropdown` when nested in `ui menu`
+- **Label** - Labels inside `header` now vertical align better by accounting for line height offset
+- **Message** - Close icon position adjusted to align with headers
+- **Header/Table/Divider** - These components now pull border color defaults from `site.variables` instead of using their own values
+- **Table** - Table header colors and padding defaults have been slightly adjusted
+
 ### Version 1.11.6 - March 27, 2015
 
 - **Menu/Dropdown** - Fix dropdown headers disappearing inside menus
@@ -27,7 +36,7 @@
 
 ### Version 0.9.6 - Dec 04, 2013
 
-- **Header, Grid, Segment** - Adds justified alignemnt
+- **Header, Grid, Segment** - Adds justified alignment
 
 ### Version 0.9.4 - Nov 24, 2013
 
