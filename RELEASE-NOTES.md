@@ -1,3 +1,8 @@
+#### Bugs
+
+- **Header** - Fixed `attached header` to have the correct bottom border on `top attached` and `attached` variations. [#2798](https://github.com/Semantic-Org/Semantic-UI/issues/2798)
+- **Header** - Fixed issue with em sizing of `chubby` and `bookish` header themes appearing too large
+
 ### Version 2.0.0 - June 30, 2015
 
 - **Headers** - Added new header type `sub header`, useful for displaying small headers alongside text content. See examples [in the header docs](http://www.semantic-ui.com/elements/header.html#sub-headers)
