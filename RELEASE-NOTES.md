@@ -1,3 +1,7 @@
+### Version 2.1.5 - Nov 1, 2015
+
+- **Header** - Sub headers now force `display: block` [#3020](https://github.com/Semantic-Org/Semantic-UI/issues/3020)
+
 #### Bugs
 
 - **Header** - Fixed `attached header` to have the correct bottom border on `top attached` and `attached` variations. [#2798](https://github.com/Semantic-Org/Semantic-UI/issues/2798)
