@@ -2,7 +2,7 @@
 Package.describe({
   name    : 'semantic:ui-header',
   summary : 'Semantic UI - Header: Single component release',
-  version : '2.1.6',
+  version : '2.1.7',
   git     : 'git://github.com/Semantic-Org/UI-Header.git',
 });
 
