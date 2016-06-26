@@ -1,3 +1,7 @@
+### Version 2.2.0 - June 26, 2016
+
+- **All UI** - All UI now include _all_ sizing variations, `mini`, `tiny`, `small`, `large`, `big`, `huge`, `massive`. Headers remain with only 5 sizes `small-huge` to match `H1-H5`
+
 ### Version 2.1.7 - Dec 19, 2015
 
 - **Header** - `sub header` used inside a header now correctly forces `block` styling [#3020](https://github.com/Semantic-Org/Semantic-UI/issues/3020)
