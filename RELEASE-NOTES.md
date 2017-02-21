@@ -1,3 +1,7 @@
+#### Dropdown
+
+- **Header** - Fixed issue where using `image icon` or `image outline icon` would cause incorrect display within `ui header` due to namespace collision with `ui image` [#4145](https://github.com/Semantic-Org/Semantic-UI/pull/4145)
+
 ### Version 2.2.0 - June 26, 2016
 
 - **All UI** - All UI now include _all_ sizing variations, `mini`, `tiny`, `small`, `large`, `big`, `huge`, `massive`. Headers remain with only 5 sizes `small-huge` to match `H1-H5`
