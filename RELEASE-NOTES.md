@@ -1,3 +1,8 @@
+### Version 2.2.12 - Aug 07, 2017
+
+- **Header** - Fixes vertical alignment
+- **Header/List** - Fixes issue where icons appear slightly offset with text due to line-height offset fixes no longer being necessary in modern browsers.
+
 ### Version 2.2.11 - July 11, 2017
 
 - **Table**- Fix inverted table header color not applying properly to `sortable table` **Thanks @Banandrew** [#5303](https://github.com/Semantic-Org/Semantic-UI/issues/5303)
