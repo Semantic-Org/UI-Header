@@ -1,3 +1,7 @@
+### Version 2.3.0 - Feb 19, 2018
+
+- **Popup** - Adds new variable `headerFontWeight`
+
 ### Version 2.2.12 - Aug 07, 2017
 
 - **Header** - Fixes vertical alignment
